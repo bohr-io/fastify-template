@@ -30,7 +30,7 @@ cd ./api/core && npm run dev
 Para construir o arquivo principal, onde todos os builds serão armazenados, digite o seguinte comando:
 
 ```sh
-cd ./api/core && npm run build
+npx bohr dev
 ```
 
 Observação: Este arquivo será armazenado na pasta `./dist/serve.js`.
@@ -78,7 +78,7 @@ Begin the initialization of your project from here...
 When developing, we recommend using the following command:
 
 ```sh
-cd ./api/core && npm run dev
+npx bohr dev
 ```
 
 To build the main file where all builds will be stored, enter the following command:
@@ -133,7 +133,7 @@ Comienza la inicialización de tu proyecto desde aquí...
 Al desarrollar, recomendamos usar el siguiente comando:
 
 ```sh
-cd ./api/core && npm run dev
+npx bohr dev
 ```
 
 Para construir el archivo principal donde se almacenarán todas las compilaciones, ingresa el siguiente comando:
