@@ -24,13 +24,13 @@ Comece a inicialização do seu projeto a partir daqui...
 Ao desenvolver, recomendamos que você utilize o seguinte comando:
 
 ```sh
-cd ./api/core && npm run dev
+npx bohr dev
 ```
 
 Para construir o arquivo principal, onde todos os builds serão armazenados, digite o seguinte comando:
 
 ```sh
-npx bohr dev
+cd ./api/core && npm run build
 ```
 
 Observação: Este arquivo será armazenado na pasta `./dist/serve.js`.
